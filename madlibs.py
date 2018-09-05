@@ -9,7 +9,7 @@ def delay_print(string):
         sys.stdout.flush()
         sleep(0.05)  
     print('')
-    return c
+    return ">>"
     
 
 # assigning green color to my text
@@ -54,7 +54,7 @@ print(red + "Here is the message from Morphius:")
 delay_print(green + "I salute you " + red + name + "! " + green +
             "You cheated the system and enrolled to Make School to join other hackers. Merovingian announced\n a reward for your codes. " 
             "The agents are waiting for your at " + red + restaurant + green +". Don’t go there anymore. Stay awake and look for " 
-            + red + color+ " " + animal + green +". It will lead you to Trinity. She will be in " + red + color+ " " +car + green + " at " + red + street + green +".\n End of line...")
+            + red + color+ " " + animal + green +".\n It will lead you to Trinity. She will be in " + red + color+ " " +car + green + " at " + red + street + green +".\n End of line...")
 
 exit()
 
